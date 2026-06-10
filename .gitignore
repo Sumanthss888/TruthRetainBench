@@ -1,0 +1,11 @@
+**pycache**/
+*.pyc
+
+results/raw/*.json
+
+.env
+
+.vscode/
+.idea/
+
+.DS_Store

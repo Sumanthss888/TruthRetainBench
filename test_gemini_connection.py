@@ -35,21 +35,17 @@ def main():
     print(f"Current Working Directory : {os.getcwd()}")
     print(f".env file path found      : {dotenv_path}")
     print(f".env file exists          : {os.path.exists(dotenv_path)}")
+    print(f"repr(GEMINI_API_KEY)      : {repr(api_key)}")
+    print(f"len(GEMINI_API_KEY)       : {len(api_key) if api_key is not None else 0}")
     
-    exists_in_env = api_key is not None
-    print(f"GEMINI_API_KEY exists     : {exists_in_env}")
-    if exists_in_env:
-        print(f"GEMINI_API_KEY length     : {len(api_key)}")
+    if api_key:
+        first_4 = api_key[:4] if len(api_key) >= 4 else api_key
+        print(f"GEMINI_API_KEY prefix     : {first_4}")
     else:
-        print("GEMINI_API_KEY length     : 0")
+        print("GEMINI_API_KEY prefix     : None")
     print("==================================================")
     print()
 
-    if not api_key or api_key.strip() == "":
-        print("Error: GEMINI_API_KEY is not set or empty in your .env file.")
-        print(f"Please open the file: {dotenv_path} and configure:")
-        print("GEMINI_API_KEY=your_real_gemini_api_key")
-        sys.exit(1)
 
 
     # 6. Add proper error handling

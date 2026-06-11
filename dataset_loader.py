@@ -21,7 +21,7 @@ class BenchmarkItem:
 def load_dataset(file_path: str = None) -> List[BenchmarkItem]:
     if file_path is None:
         script_dir = os.path.dirname(os.path.abspath(__file__))
-        file_path = os.path.join(script_dir, "dataset", "TruthRetainBench_v1.1_Final.csv")
+        file_path = os.path.join(script_dir, "dataset", "TruthRetainBench_v2.csv")
 
     if not os.path.exists(file_path):
         raise FileNotFoundError(f"Dataset file not found at '{file_path}'")

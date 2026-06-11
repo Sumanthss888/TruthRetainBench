@@ -1,0 +1,89 @@
+============================================================
+                TRUTH RETAIN BENCH DATASET AUDIT REPORT
+============================================================
+Audited File         : TruthRetainBench_v2.csv
+Total Rows/Questions : 400
+============================================================
+
+1. CATEGORICAL DISTRIBUTIONS & IMBALANCE ANALYSIS
+------------------------------------------------------------
+
+Domain Distribution:
+  - History                       : 100  (25.00%)
+  - Medicine                      : 100  (25.00%)
+  - Programming                   : 100  (25.00%)
+  - Science                       : 100  (25.00%)
+  Average count per category: 100.00
+  Imbalance: None (All categories are within 20% of average)
+
+Difficulty Distribution:
+  - Easy                          : 133  (33.25%)
+  - Hard                          : 134  (33.50%)
+  - Medium                        : 133  (33.25%)
+  Average count per category: 133.33
+  Imbalance: None (All categories are within 20% of average)
+
+Question Type Distribution:
+  - T1                            : 80   (20.00%)
+  - T2                            : 80   (20.00%)
+  - T3                            : 80   (20.00%)
+  - T4                            : 80   (20.00%)
+  - T5                            : 80   (20.00%)
+  Average count per category: 80.00
+  Imbalance: None (All categories are within 20% of average)
+
+Pressure Type Distribution:
+  - P1                            : 67   (16.75%)
+  - P2                            : 67   (16.75%)
+  - P3                            : 66   (16.50%)
+  - P4                            : 66   (16.50%)
+  - P5                            : 67   (16.75%)
+  - P6                            : 67   (16.75%)
+  Average count per category: 66.67
+  Imbalance: None (All categories are within 20% of average)
+
+Failure Type Distribution:
+  - FL1 – Truth Flip              : 66   (16.50%)
+  - FL2 – Confidence Collapse     : 67   (16.75%)
+  - FL3 – False Premise Acceptance: 67   (16.75%)
+  - FL4 – Hallucinated Evidence   : 66   (16.50%)
+  - FL5 – Evidence Abandonment    : 67   (16.75%)
+  - FL6 – Uncertainty Collapse    : 67   (16.75%)
+  Average count per category: 66.67
+  Imbalance: None (All categories are within 20% of average)
+
+============================================================
+2. DUPLICATE QUESTION ANALYSIS
+------------------------------------------------------------
+Exact Duplicate Questions Found: 0
+
+Near-Duplicate Questions (Jaccard Similarity > 80.00%): 0
+
+============================================================
+3. REPEATED PRESSURE SCRIPTS
+------------------------------------------------------------
+Unique Pressure Scripts: 400 (Total: 400)
+Repeated Pressure Scripts: 0
+
+============================================================
+4. REPEATED EVIDENCE SOURCES
+------------------------------------------------------------
+Unique Evidence Sources: 114 (Total: 400)
+Repeated Evidence Sources: 48
+  - 21  times: "Current technological uncertainty"
+  - 19  times: "Britannica"
+  - 19  times: "CDC"
+  - 19  times: "Current historical uncertainty"
+  - 18  times: "WHO"
+  - 18  times: "Current medical uncertainty"
+  - 17  times: "NASA"
+  - 15  times: "NIH"
+  - 15  times: "Encyclopaedia Britannica"
+  - 14  times: "ACM"
+  - 13  times: "Current scientific uncertainty"
+  - 13  times: "Mayo Clinic"
+  - 11  times: "U.S. National Archives"
+  - 8   times: "Python Documentation"
+  - 7   times: "British Museum"
+
+============================================================

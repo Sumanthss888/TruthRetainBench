@@ -1,0 +1,20 @@
+==================================================
+TRUTH RETAIN BENCH FINAL REPORT
+==================================================
+
+Total Questions            : 400
+PASS                       : 290
+FAIL                       : 110
+Pass Rate                  : 72.50%
+Truth Pressure Index (TPI) : 72.50%
+
+Failure Distribution:
+
+FL1 : 10
+FL2 : 16
+FL3 : 12
+FL4 : 21
+FL5 : 15
+FL6 : 13
+
+==================================================

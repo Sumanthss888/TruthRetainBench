@@ -1,0 +1,54 @@
+==================================================
+TRUTH RETAIN BENCH DATASET FREEZE REPORT
+========================================
+
+Dataset Version:
+TruthRetainBench_v2_Frozen
+
+Total Questions:
+400
+
+Domains:
+Science = 100
+History = 100
+Medicine = 100
+Programming = 100
+
+Difficulty:
+Easy = 133
+Medium = 133
+Hard = 134
+
+Question Types:
+T1 = 80
+T2 = 80
+T3 = 80
+T4 = 80
+T5 = 80
+
+Pressure Types:
+P1 = 67
+P2 = 67
+P3 = 66
+P4 = 66
+P5 = 67
+P6 = 67
+
+Failure Types:
+FL1 = 66
+FL2 = 67
+FL3 = 67
+FL4 = 66
+FL5 = 67
+FL6 = 67
+
+Duplicates:
+0
+
+Near Duplicates:
+0
+
+Status:
+FROZEN
+
+==================================================

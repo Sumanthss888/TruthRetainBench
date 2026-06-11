@@ -67,7 +67,7 @@ def print_validation_report(df: pd.DataFrame) -> None:
 
 def main():
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    file_path = os.path.join(script_dir, "dataset", "TruthRetainBench_v1.1_Final.csv")
+    file_path = os.path.join(script_dir, "dataset", "TruthRetainBench_v2.csv")
     df = load_dataset(file_path)
     
     expected_columns = [
